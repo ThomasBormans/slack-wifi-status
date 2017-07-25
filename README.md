@@ -20,6 +20,8 @@ git clone https://github.com/ThomasBormans/slack-wifi-status.git
 npm install
 ```
 
+This will also installs a bin file on the root named `sws`.
+
 ### Install config file ###
 
 Copy the sample file (`config.sample.js`) to `config.js` and edit the content based on your network preferences.
@@ -31,6 +33,6 @@ Create a new [legacy token](https://api.slack.com/custom-integrations/legacy-tok
 ### Create a cronjob ###
 
 ```sh
-*/15 * * * * /complete/path/to/slack-wifi-status
+*/15 * * * * /complete/path/to/slack-wifi-status/sws
 ```
 The above cronjob runs every 15 minutes.
