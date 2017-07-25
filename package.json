@@ -1,0 +1,25 @@
+{
+  "name": "slack-wifi-status",
+  "version": "1.0.0",
+  "description": "Update your Slack Status based on your current WiFi connection",
+  "main": "index.js",
+  "scripts": {
+    "lint": "node_modules/.bin/eslint .",
+    "test": "echo \"Error: no test specified, coming soon.\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Thomas Bormans",
+  "license": "MIT",
+  "dependencies": {
+    "node-wifi": "1.2.5",
+    "querystring": "0.2.0",
+    "request": "2.81.0"
+  },
+  "devDependencies": {
+    "@district01/eslint-config": "1.0.0",
+    "eslint-plugin-chai-friendly": "0.3.6"
+  },
+  "bin": {
+    "slack-wifi-status": "index.js"
+  }
+}
